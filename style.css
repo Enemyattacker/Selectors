@@ -1,0 +1,27 @@
+﻿body {
+        color: white;
+        background: #2E69E3;
+        text-align: center; 
+}
+
+p {
+        font-family: courier;
+        font-size: 160%;
+}
+
+.submit {
+	background: #2E8CE3;
+	padding: 7px 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	border: solid 1px #73C8F0;
+	cursor: pointer;
+	box-shadow: inset 0 1px 0 0 #FFFFFF;
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+
+h6{
+ font-size: 20px;
+}

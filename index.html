@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+	<head>
+		<script src="script.js"> </script>
+		<script type="text/javascript" src="jquery-2-1-4.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body onload='css()'>
+		<p> Логин <input type='text' id='login' placeholder="От 3 до 16 символов"> </p>
+		<p> E-Mail <input type='text' id='mail' > </p>
+		<p> Телефон <input type='text' id='static' value="+7" readonly> -
+					<input type='text' id='code' placeholder="3 символа"> -
+					<input type='text' id='phone' placeholder= "7 символов"> </p>
+		<p> Банковская карта <input type='text' class='bank' id='bank1' >
+							 <input type='text' class='bank' id='bank2' >
+							 <input type='text' class='bank' id='bank3' >
+							 <input type='text' class='bank' id='bank4' > </p>
+		<p> Дата рождения <input type='text' class='date' id='day' placeholder="ДД"> . 
+						  <input type='text' class='date' id='month' placeholder="ММ" > . 
+						  <input type='text' class='date' id='year' placeholder="ГГ" > </p>
+
+		<p> <input type='submit' class='submit'> </p>
+		<p> <input type='button' class='submit' value ='Холодная цветовая гамма' onclick="cold()"> </p>
+		<p> <input type='button' class='submit' value ='Тёплая цветовая гамма' onclick="warm()"> </p>
+</body>
